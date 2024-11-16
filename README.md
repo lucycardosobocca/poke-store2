@@ -1,0 +1,1 @@
+mi proyecto consiste en una pagina web de venta de productos relacionado a Pokemon que incluye peluches, figuras, ropa, entre otros
