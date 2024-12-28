@@ -5,7 +5,8 @@
 }
 h1,h2,h3{
     font-family: "Bebas Neue", sans-serif;
-    font-size: 25px;
+    font-size: 23px;
+    padding: 6px;
 }
 
 body{ 
@@ -14,6 +15,8 @@ body{
     background: linear-gradient(299deg,#ffffff 0%, #d3edff 80%);
     background: -webkit-linear-gradient(299deg,#ffffff 0%, #d3edff 80%);
     background: -moz-linear-gradient(299deg,#ffffff 0%, #d3edff 80%);
+    display: block;
+    margin: 8px;
 }
 
 
@@ -25,6 +28,7 @@ body{
     font-family: "Bebas Neue", sans-serif;
     font-size: 40px;
     display: flex;
+    margin: 8px;
     align-items: center;
     justify-content: space-between;
   }
@@ -64,23 +68,29 @@ body{
 
   .contenedor-flex {
     display: flex;
-    justify-content: flex-start; 
-    align-items: center; 
-    gap: 10px; 
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
+  
  
   }
   
   .contenedor-flex img {
-    width: 150px; 
+    margin:0 auto;
+    width: 120px; 
     height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+
   }
 #footer{
     background-color: crimson;
     border-top: 20px solid #000000;
     font-family: "Bebas Neue", sans-serif;
     font-size: 25px;
+    margin: 8px;
 }
 
 .marco.imagen{
@@ -112,7 +122,7 @@ height: auto;
     
     
 }
-fuente3{
+.fuente3{
     font-family: "Bebas Neue", sans-serif;
     font-size: 20px;
     color: ivory;
@@ -154,5 +164,14 @@ fuente3{
     color: rgb(0, 0, 0);
     text-align: center;
   
+  }
+
+  .marco{
+    border-top: 5px dotted #000000;
+border-right: 5px dotted #000000;
+border-bottom: 5px dotted #000000;
+border-left: 5px dotted #000000;
+width: auto; 
+height: auto;
   }
   
